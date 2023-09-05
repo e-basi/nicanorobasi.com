@@ -67,10 +67,10 @@ function getRandomCharacter() {
 
 document.getElementById("resumeButton").addEventListener("click", function() {
 			
-    var resumeFileName = "Resume.pdf";
+    //var resumeFileName = "Resume.pdf";
     
     // Construct the path to the resume file in the 'assets' folder.
-    var resumeFilePath = "/asset/" + resumeFileName;
+    var resumeFilePath = "/resume" ;
     
     // Open the resume file in a new tab or window.
     window.open(resumeFilePath, "_blank");
