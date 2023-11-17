@@ -1,3 +1,4 @@
+
 /* Breakpoints: 800, 600 */
 
 :root {
@@ -916,6 +917,18 @@ button:hover {
     }
 }
 
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #020826;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color: #343a40;
+    box-shadow: none;
+    border-radius: 10px;
+}
 
 
 
