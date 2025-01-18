@@ -72,7 +72,7 @@ document.getElementById("resumeButton").addEventListener("click", function() {
     // Construct the path to the resume file in the 'assets' folder.
     var resumeFilePath = "/resume" ;
     
-    // Open the resume file in a new tab or window.
+   
     window.open(resumeFilePath, "_blank");
 });
 
